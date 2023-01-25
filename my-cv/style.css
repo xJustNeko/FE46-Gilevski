@@ -1,0 +1,15 @@
+.contact-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(167, 52, 52, 0);
+}
+
+.container {
+    font-family: 'Arimo', sans-serif;
+}
+
+h3 {
+    padding: 10px;
+}
