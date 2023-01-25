@@ -32,24 +32,3 @@ h2 {
     font-size: 18px;
     padding: 30px;
 }
-
-.prototypes-left-img {
-    border: 2px solid tomato;
-    height: 92px;
-    width: 92px;
-    border-radius: 100%;
-}
-
-.prototypes-mid-img {
-    border: 2px solid tomato;
-    height: 92px;
-    width: 92px;
-    border-radius: 100%;
-}
-
-.prototypes-right-img {
-    border: 2px solid tomato;
-    height: 92px;
-    width: 92px;
-    border-radius: 100%;
-}
