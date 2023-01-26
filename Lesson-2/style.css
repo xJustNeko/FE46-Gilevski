@@ -55,6 +55,7 @@ span{
 
 .prototypes-content {
     display: flex;
+    justify-content: space-between;
 }
 .card__image { 
     display: flex;  
@@ -62,7 +63,7 @@ span{
     justify-content: center;}
 
 .card__image-wrapper { 
-    
+     
     display: flex;  
     align-items: center; 
     justify-content: center; 
