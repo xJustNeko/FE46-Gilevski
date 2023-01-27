@@ -1,47 +1,45 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .container__tabs {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 1170px;
-    margin: auto;
-
+    margin: 0 auto;
 }
 
 .container__tabs_wrapper {
-    padding-top:99px;
+    padding-top: 99px;
 }
 
 .tabs__radio-wrapper {
     display: flex;
-    flex-direction: row;
     align-items: center;
     text-align: center;
     font-weight: 400;
     font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
-    border-bottom: 1px Solid #C6CBCD;
-
 }
 
 .tabs {
-    padding: 10px 16px;
-    padding-left: 73px;
-    padding-top: 10px;
-    padding-right: 73px;
-    padding-bottom: 11px;
+    padding: 10px 73px 11px 73px;
 }
 
 .tabs__body {
     display:flex;
+    border-top: 1px Solid #C6CBCD;
 }
 
 .tabs_active {
-    border: 1px Solid #C6CBCD;
-    border-bottom: 0px;
+    border-left: 1px Solid #C6CBCD;
+    border-right: 1px Solid #C6CBCD;
+    border-top: 1px Solid #C6CBCD;
+    border-bottom: 1px Solid white;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
-
+    margin-bottom: -1px;
 }
 
 .tabs__content {
@@ -57,7 +55,6 @@
 .tabs__content-header h3{
     font-weight: 700;
     font-size: 30px;
-    font-family: 'Open Sans', sans-serif;
     min-width: 570px;
     min-height: 124px;
     padding:1px 30px 27px 100px;
@@ -65,18 +62,14 @@
 
 .tabs__content-main-wrapper{
     display:flex;
-    flex-direction: row;
     min-width: 570px;
     min-height: 210px;
 }
 
 .tabs__content-main-text {
-    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    padding-left: 100px;
-    padding-right: 30px;
-    padding-bottom: 30px;
+    padding: 0 30px 30px 100px;
 }
 
 .tabs__image {
@@ -85,8 +78,8 @@
 }
 
 .tabs__button {
-padding-left: 100px ;
-padding-bottom: 54px;
+    padding-left: 100px;
+    padding-bottom: 54px;
 }
 
 .tabs__button-wrapper {    
@@ -94,8 +87,6 @@ padding-bottom: 54px;
     height: 58px;
     background-color: #EC7979;
     text-align: center;
-
-
 }
 
 .tabs__button-wrapper span{
@@ -103,6 +94,5 @@ padding-bottom: 54px;
     font-size: 18px;
     color: #fff;
     text-align: center;
-
 }
 
