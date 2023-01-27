@@ -76,28 +76,21 @@ body {
     overflow: auto;
 }
 
-.tabs__button {
+.tabs__button-wrapper {
     padding-left: 100px;
     padding-bottom: 54px;
-/*     display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center; */
+    justify-content: center;
 }
 
-.tabs__button-wrapper {    
+.tabs__button {    
     max-width: 270px;
-    max-height: 58px;
+    min-height: 58px;
     background-color: #EC7979;
-    text-align: center;
-    
-}
-
-.tabs__button-wrapper span{
     font-weight: 600;
     font-size: 18px;
     color: #fff;
-    display: flex;
-    text-align: center;
-    justify-content: center;
+    border:0px;
 }
 
