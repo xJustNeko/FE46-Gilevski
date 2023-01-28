@@ -86,6 +86,15 @@
 }
 
 .pricing__cards-space {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 58px;
+    min-width: 370px;
+    max-height: 383px;
+    padding: 0px 15px 0px 15px;
+}
+
+.pricing__cards-space li {
     min-height: 50px;
     background-color: #ffffff;
     display: flex;
