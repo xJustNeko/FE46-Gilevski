@@ -2,6 +2,14 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+.tab {
+    display: none;
+}
+
+.tab:target {
+    display: block;
+}
+
 .container__tabs {
     display: flex;
     flex-direction: column;
@@ -93,4 +101,14 @@ body {
     font-size: 18px;
     color: #fff;
     border: 0px;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+}
+
+.tabs__button:hover {
+    background-color: #e44e4e;
+}
+
+.tabs__radio input {
+    width: 0;
 }
