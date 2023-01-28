@@ -19,14 +19,23 @@
 </head>
 
 <body>
-    <!--  <section class="tabs">
+    <section class="tabs">
         <div class="container__tabs">
             <div class="container__tabs_wrapper">
                 <div class="tabs__radio">
                     <div class="tabs__radio-wrapper">
-                        <div class="tabs tabs_active"><input type="radio"><span>TAB 1</span></div>
-                        <div class="tabs"><input type="radio"><span>TAB 2</span></div>
-                        <div class="tabs"><input type="radio"><span>TAB 3</span></div>
+                        <div class="tabs tabs_active"><input type="radio" id="contactTab1" name="tab1" value="tab1">
+                            <label class="nav__list-location" for="contactTab1"><a class="nav__item" href="#tab1">TAB
+                                    1</a></label>
+                        </div>
+                        <div class="tabs"><input type="radio" id="contactTab1" name="tab1" value="tab1">
+                            <label class="nav__list-location" for="contactTab1"><a class="nav__item" href="#tab1">TAB
+                                    2</a></label>
+                        </div>
+                        <div class="tabs"><input type="radio" id="contactTab1" name="tab1" value="tab1">
+                            <label class="nav__list-location" for="contactTab1"><a class="nav__item" href="#tab1">TAB
+                                    3</a></label>
+                        </div>
                     </div>
                 </div>
                 <div class="tabs__body">
@@ -44,7 +53,8 @@
                                             penatibus et magnis dis parturient montes.
                                             <br>
                                             <br>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                                            <br>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br>
                                             bibendum laoreet.</span>
                                     </div>
                                 </div>
@@ -68,7 +78,7 @@
     <section class="why-this-awesome">
         <div class="container__why-this-awesome">
             <div class="prototypes-about">
-                <h2>WHY IS THIS AWESOME</h2>
+                <h2>WHY THIS IS AWESOME</h2>
             </div>
             <div class="prototypes-about-separator"><svg width="170" height="1" viewBox="0 0 170 1" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -88,7 +98,8 @@
                     <div class="text">
                         <h4>Thoughtful Design</h4>
                         <span>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+                            Lorem ipsum dolor sit amet, consectetur <br>adipiscing<br> elit. Aenean euismod bibendum
+                            laoreet.
                             Proin gravida dolor sit amet lacus accumsan et viverra
                         </span>
                     </div>
@@ -102,7 +113,8 @@
                     <div class="text">
                         <h4>Thoughtful Design</h4>
                         <span>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+                            Lorem ipsum dolor sit amet, consectetur <br>adipiscing<br> elit. Aenean euismod bibendum
+                            laoreet.
                             Proin gravida dolor sit amet lacus accumsan et viverra
                         </span>
                     </div>
@@ -116,14 +128,15 @@
                     <div class="text">
                         <h4>Thoughtful Design</h4>
                         <span>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+                            Lorem ipsum dolor sit amet, consectetur <br>adipiscing<br> elit. Aenean euismod bibendum
+                            laoreet.
                             Proin gravida dolor sit amet lacus accumsan et viverra
                         </span>
                     </div>
                 </div>
             </div>
         </div>
-    </section>-->
+    </section>
     <section class="pricing">
         <div class="pricing__container">
             <div class="pricing__wrapper">
@@ -150,34 +163,40 @@
                                         <div class="pricing__cards-tarif"><span>Basic</span></div>
                                         <div class="pricing__cards-price"><span>$10</span></div>
                                         <div class="pricing__cards-life"><span>Free for life</span></div>
-                                        <div class="pricing__cards-space"><span>1 GB Of Space</span></div>
-                                        <div class="pricing__cards-space"><span>1 GB Of Space</span></div>
-                                        <div class="pricing__cards-space"><span>1 GB Of Space</span></div>
-                                        <div class="pricing__cards-space"><span>1 GB Of Space</span></div>
-                                        <div class="pricing__cards-space"><span>1 GB Of Space</span></div>
-                                        <div class="pricing__cards-space"><span>1 GB Of Space</span></div>
+                                        <ul class="pricing__cards-space wrapper">
+                                            <li class="pricing__cards-space">1 Gb Of Space</li>
+                                            <li class="pricing__cards-space">1 Gb Of Space</li>
+                                            <li class="pricing__cards-space">1 Gb Of Space</li>
+                                            <li class="pricing__cards-space">1 Gb Of Space</li>
+                                            <li class="pricing__cards-space">1 Gb Of Space</li>
+                                            <li class="pricing__cards-space">1 Gb Of Space</li>
+                                        </ul>
                                     </div>
-                                    <div class="pricing__cards active shadow">
+                                    <div class="pricing__cards pricing__cards_active">
                                         <div class="pricing__cards-tarif"><span>Optima</span></div>
                                         <div class="pricing__cards-price"><span>$20</span></div>
                                         <div class="pricing__cards-life"><span>Free for life</span></div>
-                                        <div class="pricing__cards-space"><span>1 GB Of Space</span></div>
-                                        <div class="pricing__cards-space"><span>1 GB Of Space</span></div>
-                                        <div class="pricing__cards-space"><span>1 GB Of Space</span></div>
-                                        <div class="pricing__cards-space"><span>1 GB Of Space</span></div>
-                                        <div class="pricing__cards-space"><span>1 GB Of Space</span></div>
-                                        <div class="pricing__cards-space"><span>1 GB Of Space</span></div>
+                                        <ul class="pricing__cards-space wrapper">
+                                            <li class="pricing__cards-space">1 Gb Of Space</li>
+                                            <li class="pricing__cards-space">1 Gb Of Space</li>
+                                            <li class="pricing__cards-space">1 Gb Of Space</li>
+                                            <li class="pricing__cards-space">1 Gb Of Space</li>
+                                            <li class="pricing__cards-space">1 Gb Of Space</li>
+                                            <li class="pricing__cards-space">1 Gb Of Space</li>
+                                        </ul>
                                     </div>
                                     <div class="pricing__cards">
                                         <div class="pricing__cards-tarif"><span>Pro</span></div>
                                         <div class="pricing__cards-price"><span>$30</span></div>
                                         <div class="pricing__cards-life"><span>Free for life</span></div>
-                                        <div class="pricing__cards-space"><span>1 GB Of Space</span></div>
-                                        <div class="pricing__cards-space"><span>1 GB Of Space</span></div>
-                                        <div class="pricing__cards-space"><span>1 GB Of Space</span></div>
-                                        <div class="pricing__cards-space"><span>1 GB Of Space</span></div>
-                                        <div class="pricing__cards-space"><span>1 GB Of Space</span></div>
-                                        <div class="pricing__cards-space"><span>1 GB Of Space</span></div>
+                                        <ul class="pricing__cards-space wrapper">
+                                            <li class="pricing__cards-space">1 Gb Of Space</li>
+                                            <li class="pricing__cards-space">1 Gb Of Space</li>
+                                            <li class="pricing__cards-space">1 Gb Of Space</li>
+                                            <li class="pricing__cards-space">1 Gb Of Space</li>
+                                            <li class="pricing__cards-space">1 Gb Of Space</li>
+                                            <li class="pricing__cards-space">1 Gb Of Space</li>
+                                        </ul>
                                     </div>
 
                                 </div>
