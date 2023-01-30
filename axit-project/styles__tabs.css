@@ -36,7 +36,7 @@ body {
     padding: 10px 73px 11px 73px;
 }
 
-.tabs__body {
+.tab__main {
     display: flex;
     border-top: 1px Solid #c6cbcd;
 }
@@ -51,12 +51,12 @@ body {
     margin-bottom: -1px;
 }
 
-.tabs__content {
+.tab__content {
     border: 1px Solid #c6cbcd;
     border-top: 0px;
 }
 
-.tabs__content-header h3 {
+.tab__content-header h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,20 +67,20 @@ body {
     padding: 1px 30px 27px 100px;
 }
 
-.tabs__content-main-wrapper {
+.tab__content-main-wrapper {
     display: flex;
     min-width: 570px;
     min-height: 210px;
 }
 
-.tabs__content-main-text {
+.tab__content-main-text {
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     font-size: 18px;
     padding: 0 30px 27px 100px;
 }
 
-.tabs__image {
+.tab__image {
     min-width: 470px;
     overflow: auto;
 }
