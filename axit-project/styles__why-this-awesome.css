@@ -23,11 +23,13 @@
     font-weight: 400;
 }
 
+/* не знаю почему, но не один из сепараторов у меня не отображаются */
 .prototypes-about-separator {
     padding-top: 0px;
     padding-bottom: 40px;
 }
 
+/* все остальное вроде отлично)) */
 .content {
     padding-bottom: 110px;
     color: #86878b;
