@@ -1,0 +1,54 @@
+.container__banner {
+    background-image: url(/axit-project/assets/images/banner.png);
+}
+.wrapper__background {
+    background-color: rgba(0, 0, 0, 0.432);
+}
+.banner__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    align-items: center;
+    font-size: 18px;
+    max-width: 1170px;
+}
+
+.banner__header {
+    margin-top: 50px;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.banner__header h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.banner__separator {
+    width: 170px;
+    height: 1px;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.banner__main {
+    color: #fff;
+    margin-top: 40px;
+}
+.banner__button {
+    background: none;
+    min-height: 58px;
+    min-width: 370px;
+    color: white;
+    border-color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    margin: 73px 0px 50px 0px;
+}
