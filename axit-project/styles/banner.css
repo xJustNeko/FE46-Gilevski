@@ -46,9 +46,9 @@
     background: none;
     min-height: 58px;
     min-width: 370px;
-    color: white;
     border-color: #fff;
+    margin: 73px 0px 50px 0px;
+    color: white;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
-    margin: 73px 0px 50px 0px;
 }

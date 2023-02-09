@@ -19,7 +19,11 @@
 .contact__header h2 {
     min-height: 150px;
     font-size: 36px;
+
+    display: flex;
+    align-items: center;
     text-align: center;
+    justify-content: center;
 }
 
 .contact__separator {
@@ -47,18 +51,19 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    margin-bottom: 66px;
 }
 
 .contact__feedback::before {
     content: "";
     position: absolute;
-    top: 100%;
+    top: 68%;
     width: 0;
     height: 0;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 20px solid #e2e2e2;
-    left: 20%;
+    left: 16%;
 }
 
 .contact__card {
@@ -76,7 +81,7 @@
     display: flex;
 }
 .contact__photo {
-    margin: 46px 30px 84px 0px;
+    margin: 0px 30px 84px 0px;
 }
 .person__wrapper {
     display: flex;
@@ -84,7 +89,8 @@
 }
 
 .person__name {
-    margin: 46px 0px 15px 0px;
+    min-height: 54px;
+    margin: 0px 0px 15px 0px;
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-size: 24px;
