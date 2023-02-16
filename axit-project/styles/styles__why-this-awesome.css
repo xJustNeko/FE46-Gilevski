@@ -4,9 +4,7 @@
     justify-content: center;
     max-width: 1170px;
     align-items: center;
-    font-family: "Raleway", sans-serif;
     text-align: center;
-    font-weight: 400;
     font-size: 18px;
     margin: auto;
 }
@@ -23,17 +21,19 @@
     font-weight: 400;
 }
 
-.prototypes-about-separator {
-    padding-top: 0px;
-    padding-bottom: 40px;
+.prototypes-about__separator {
+    width: 170px;
+    height: 1px;
+    margin: auto;
+    background-color: #ec7979;
 }
 
-.content {
-    padding-bottom: 110px;
+.prototypes-about__content {
+    margin: 40px 0px 72px 0px;
     color: #86878b;
 }
 
-.wrapper {
+.card__wrapper {
     display: flex;
     flex-direction: column;
     margin-bottom: 58px;
@@ -60,13 +60,13 @@
     border-radius: 100%;
 }
 
-.text h4 {
+.card__text h4 {
     min-height: 100px;
     padding: 39px 0 8px 0;
     font-size: 24px;
 }
 
-.text span {
+.card__text span {
     min-height: 105px;
     min-width: 370px;
     text-align: center;

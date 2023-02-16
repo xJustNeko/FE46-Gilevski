@@ -1,7 +1,3 @@
-body {
-    font-family: "Open Sans", sans-serif;
-}
-
 .tab {
     display: none;
 }
@@ -80,7 +76,7 @@ body {
     margin: 0 30px 27px 100px;
 }
 
-.tab__content-main-text span {
+.tab__content-main-text {
     white-space: pre-wrap;
 }
 
