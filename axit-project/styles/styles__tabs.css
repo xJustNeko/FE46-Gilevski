@@ -64,20 +64,24 @@ body {
     font-size: 30px;
     min-width: 570px;
     min-height: 124px;
-    padding: 1px 30px 27px 100px;
+    margin: 1px 30px 27px 100px;
 }
 
 .tab__content-main-wrapper {
     display: flex;
-    min-width: 570px;
-    min-height: 210px;
+    max-width: 570px;
+    max-height: 210px;
 }
 
 .tab__content-main-text {
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     font-size: 18px;
-    padding: 0 30px 27px 100px;
+    margin: 0 30px 27px 100px;
+}
+
+.tab__content-main-text span {
+    white-space: pre-wrap;
 }
 
 .tab__image {
