@@ -14,7 +14,7 @@
 }
 
 .pricing__header-caption {
-    padding-top: 50px;
+    margin-top: 50px;
     height: 150px;
     display: flex;
     align-items: center;
